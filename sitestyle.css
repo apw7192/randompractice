@@ -1,3 +1,7 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color:cornflowerblue;
 }
@@ -5,4 +9,12 @@ body {
 h1 {
     color:bisque;
     text-align:center;
+}
+
+button {
+    background-color:white;
+    color:navy;
+    font-size:20px;
+    padding:20px,35px;
+    border-radius:20px;
 }
