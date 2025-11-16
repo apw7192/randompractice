@@ -6,7 +6,7 @@ body {
     background-color:cornflowerblue;
 }
 
-h1 {
+h1, h2 {
     color:bisque;
     text-align:center;
 }
@@ -14,7 +14,21 @@ h1 {
 button {
     background-color:white;
     color:navy;
-    font-size:20px;
-    padding:20px,35px;
+    font-size:15px;
+    padding:30px,45px;
     border-radius:20px;
+}
+
+button:hover {
+    background-color:gray;
+    color:navy;
+    font-size:15px;
+    padding:30px,45px;
+    border-radius:20px;
+}
+
+.teams {
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
 }
