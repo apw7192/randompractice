@@ -2,6 +2,10 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+p {
+    text-align:center;
+}
+
 body {
     background-color:cornflowerblue;
 }
@@ -28,7 +32,7 @@ button:hover {
 }
 
 .teams {
-    display: inline;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
