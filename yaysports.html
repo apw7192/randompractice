@@ -3,24 +3,28 @@
     <head>
         <title>Sports Section</title>
         <link rel="stylesheet" href="sitestyle.css">
+        <script src="scripting.js"></script>
     </head>
     <body>
         <h1>Welcome to the Sports Zone!</h1>
         <h2><u>We got all the cool teams here:</u></h2>
         <div class="teams">
         <a href="https://www.nfl.com/teams/new-york-giants/">
-        <img src="https://logohistory.net/wp-content/uploads/2023/01/New-York-Giants-Emblem.png" alt="NY Giants" width="200"/>
+        <img id="giants" src="https://logohistory.net/wp-content/uploads/2023/01/New-York-Giants-Emblem.png" alt="NY Giants" width="200"/>
         </a>
         <a href="https://www.mlb.com/yankees">
-        <img src="https://ticketor.net/usercontent/133034/evt/281795.png?v=1115001500" alt="NY Yankees" width="200"/>
+        <img id="yankees" src="https://ticketor.net/usercontent/133034/evt/281795.png?v=1115001500" alt="NY Yankees" width="200"/>
         </a>
         <a href="https://www.nba.com/knicks/">
-        <img src="https://content.sportslogos.net/logos/6/216/full/new_york_knicks_logo_primary_2023_sportslogosnet-8036.png" alt="NY Knicks" width="200"/>
+        <img id="knicks" src="https://content.sportslogos.net/logos/6/216/full/new_york_knicks_logo_primary_2023_sportslogosnet-8036.png" alt="NY Knicks" width="200"/>
         </a>
         </a>
         <a href="https://www.nhl.com/rangers/">
-        <img src="https://logos-world.net/wp-content/uploads/2020/05/New-York-Rangers-Logo-1978-1998.png" alt="NY Rangers" width="200"/>
+        <img id="rangers" src="https://logos-world.net/wp-content/uploads/2020/05/New-York-Rangers-Logo-1978-1998.png" alt="NY Rangers" width="200"/>
         </a>
         </div>
+        
+        <button type="button" onclick="upSize()">UpSize</button>
+        <button type="button" onclick="downSize()">DownSize</button>
     </body>
 </html>
